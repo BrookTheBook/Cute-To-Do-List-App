@@ -1,0 +1,106 @@
+.App {
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.todo-input {
+  font-size: 24px;
+  border: #d6d2d2 1.5px solid;
+  width: 100%;
+  text-align: center;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+.todo-input:focus {
+  outline: none;
+}
+
+.done {
+  text-decoration: none/*line-through*/;
+}
+
+.todo {
+  margin: 32px 0px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  color: #817d7d;
+}
+
+.todo:hover {
+  text-decoration: line-through;
+  text-decoration-color: #817e7e;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  background: #ebe6e6;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  transition: all 300ms ease;
+}
+
+.delete {
+  margin-left: auto;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.checkbox:hover, .delete:hover {
+    opacity: 0.8;
+  }
+
+.group {
+  background: #fff;
+  border: #d6d2d2 1.5px solid;
+  border-radius: 25px;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.title {
+  background: #fff;
+  color: #817e7e;
+  font-family: 'Aclonica';
+  font-size: 28px;
+  border: #d6d2d2 3px solid;
+  border-radius: 25px;
+  width: 230px;
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  transform: translate(110%, 0%);
+}
+
+.heading {
+  text-align: center;
+}
+
+
+
+
+@media only screen and (device-width:768px) {
+  .title {
+  transform: translate(58%, 0%);    
+  }
+}
+
+@media only screen and (max-device-width:480px) {
+  .title {
+    transform: translate(40%, 0%);
+  }
+}
