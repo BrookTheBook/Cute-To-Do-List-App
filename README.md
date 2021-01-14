@@ -19,4 +19,7 @@ I learned how to create a To Do List Application using Node.js. I also learned h
 
 ### Pictures
 
-![checked list](images.png)
+![checked list](image1.png)
+![checked list](image2.png)
+![checked list](image3.png)
+![checked list](image4.png)
